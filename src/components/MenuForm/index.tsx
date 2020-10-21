@@ -14,26 +14,24 @@ const MenuForm: React.FC = () => {
           <DropboxLogo />
           <span>Dropbox</span>
         </h1>
-        {/* ✕ chacter in video description */}
         <button className="action--close" onClick={handleToggle}>
           ✕
         </button>
       </Navigation>
 
       <Form>
-        <span className="title">Registre-se</span>
-        <span className="subtitle">preencha o formulário abaixo</span>
+        <span className="title">Register</span>
+        <span className="subtitle">or create and account</span>
 
-        <input type="text" placeholder="Nome" />
-        <input type="text" placeholder="Sobrenome" />
-        <input type="email" placeholder="E-mail" />
-        <input type="password" placeholder="Senha" />
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Lastname" />
+        <input type="email" placeholder="Email" />
+        <input type="password" placeholder="Password" />
 
         <button>Prosseguir</button>
 
         <span className="terms">
-          Esta página está sujeita à Política de privacidade e aos Termos de
-          serviço.
+            This page is protected by Privacy Policy.
         </span>
       </Form>
     </Container>

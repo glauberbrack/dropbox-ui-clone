@@ -31,7 +31,7 @@ const Section: React.FC<Props> = ({ variant, title, description }) => {
           </h1>
 
           <button onClick={handleToggle}>
-            {buttonVariant === 0 ? 'Interagir' : 'Acessar'}
+            {buttonVariant === 0 ? 'Interact' : 'Access'}
           </button>
         </Header>
       </HeaderWrapper>
