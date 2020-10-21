@@ -1,8 +1,12 @@
 import React from 'react';
+import GlobalStyles from './styles/globalStyles';
 
 function App() {
   return (
-    <h1>Glauber</h1>
+    <>
+      <GlobalStyles/>
+      <h1>glaubin</h1>
+    </>
   );
 }
 
